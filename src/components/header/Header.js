@@ -1,3 +1,8 @@
+import instagram from '../../assets/icons/instagram.png';
+import facebook from '../../assets/icons/facebook.png';
+import email from '../../assets/icons/email.png';
+import tiktok from '../../assets/icons/tiktok.png'
+
 const Header = () => {
   return (
     <header>
@@ -16,22 +21,22 @@ const Header = () => {
         <ul className="socialLinks">
           <li>
             <a href="https://www.instagram.com/oscarsbass/">
-              <img src="" alt="instagram icon" />
+              <img src={instagram} alt="instagram icon" />
             </a>
           </li>
           <li>
             <a href="https://www.facebook.com/oscar.bass.7">
-              <img src="" alt="facebook icon" />
+              <img src={facebook} alt="facebook icon" />
             </a>
           </li>
           <li>
             <a href="https://www.tiktok.com/@oscarbass">
-              <img src="" alt="tiktok icon" />
+              <img src={tiktok} alt="tiktok icon" />
             </a>
           </li>
           <li>
             <a href="mailto:oanesetti66@gmail.com">
-              <img src="" alt="email icon" />
+              <img src={email} alt="email icon" />
             </a>
           </li>
         </ul>
