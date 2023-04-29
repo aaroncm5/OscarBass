@@ -1,0 +1,39 @@
+@use '../../styles/fonts' as *;
+@use '../../styles/mixins' as *;
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 100%;
+
+    &-link {
+        height: 100%;
+
+        &__image {
+            height: 100%;
+        }
+    }
+}
+
+.mobile-menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    &__icon {
+        height: 75%;
+
+    }
+}
+
+.nav {
+    display: none;
+}
