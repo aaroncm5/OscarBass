@@ -1,3 +1,5 @@
+@use "./fonts" as *;
+
 @mixin tablet {
     @media (min-width: 768px) {
         @content;
@@ -9,3 +11,11 @@
         @content;
     }
 }
+
+// fonts
+
+$oswald: "Oswald";
+$oswaldB: "Oswald Bold";
+
+$roboto: "Roboto";
+$robotB: "Roboto Bold";

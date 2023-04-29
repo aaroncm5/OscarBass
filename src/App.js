@@ -1,15 +1,16 @@
-import './App.css';
-import Header from './components/header/Header';
+import './App.scss';
+// import Header from './components/header/Header';
 
 import MainPage from './pages/mainPage/MainPage';
+import About from './pages/about/About';
 
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <h1>oscar anesetti</h1>
-      <MainPage />
+      {/* <Header/> */}
+      {/* <MainPage /> */}
+      <About />
     </div>
   );
 }

@@ -1,0 +1,34 @@
+@use "../../styles/fonts" as *;
+@use "../../styles/mixins" as *;
+
+.about {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .aboutContainer {
+        display: flex;
+        // align-items: center;
+        width: 60%;
+        max-height: 800px;
+        .aboutText {
+            display: flex;
+            flex-direction: column;
+            padding: 0 45px;
+            width: 50%;
+            height: 100%;
+            font-family: $roboto;
+        }
+    }
+    .aboutHeadshot {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        img {
+            height: 60%;
+            width: 60%;
+        }
+    }
+}
